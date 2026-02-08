@@ -8,7 +8,7 @@ const Stats = () => {
   return (
     <>
       <div className="relative -mt-24 flex justify-center ">
-        <div className="w-11/12 md:w-8/12 bg-[#2f6f69] rounded-2xl p-8 text-white gap-8 grid grid-cols-3 place-items-center md:flex md:justify-around  shadow-xl ">
+        <div className="w-11/12 md:w-10/12 bg-[#2f6f69] rounded-2xl p-8 text-white gap-8 grid grid-cols-3 place-items-center md:flex md:justify-around  shadow-xl ">
       
           <div className="text-center my-auto">
             <h2 className="text-3xl font-saira font-bold my-auto">

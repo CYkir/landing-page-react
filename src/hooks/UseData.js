@@ -11,7 +11,7 @@ const UseData = () => {
   const fetchData = async () => {
     try {
       const res = await getdata()
-      console.log(res.data)
+      // console.log(res.data)
       setdata(res.data)
     } catch (err) {
       setError(err.message || 'failed to fetch data')

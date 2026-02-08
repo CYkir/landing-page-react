@@ -11,7 +11,7 @@ const UseHeader = () => {
     const fetchHeader = async () => {
       try {
         const res = await getHeader();
-        console.log(res.data);
+        // console.log(res.data);
         setHeader(res.data);
       } catch (err) {
         setError(err.message || "Failed to fetch header");
