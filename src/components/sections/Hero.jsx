@@ -1,14 +1,13 @@
 import UseHeader from "../../hooks/UseHeader";
 import GlobalLoading from "../loading/GlobalLoading";
-
-
+import { scrollToSection } from "../../utils/Scroll";
 const Hero = () => {
   const { header, err, loading } = UseHeader();
 
   if (loading) return <GlobalLoading/>;
   if (err) return <p>error: {err}</p>;
   return (
-    <section
+    <section id="hero"
       className="relative h-[620px] md:h-screen bg-cover bg-right md:bg-center"
       style={{ backgroundImage: `url('${header.banner}')` }}
     >
@@ -22,7 +21,10 @@ const Hero = () => {
           </p>
         </div>
         <div className="my-5 md:my-20">
-          <button className="px-8 md:px-16 py-3 bg-white/30 md:bg-white/20 backdrop-blur-lg md:backdrop-blur-sm  font-saira font-bold font-xl rounded-lg">
+          <button
+            onClick={() => scrollToSection("product")}
+            className="px-8 md:px-16 py-3 bg-white/30 md:bg-white/20 backdrop-blur-lg md:backdrop-blur-sm  font-saira font-bold font-xl rounded-lg"
+          >
             Shop Now
           </button>
         </div>

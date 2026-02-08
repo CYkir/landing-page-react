@@ -8,7 +8,7 @@ const Category = () => {
   if(err) return <p>Err : {err}</p>
   return (
     <>
-      <section className="md:mt-20 w-full md:w-10/12 mx-auto mb-20">
+      <section id="category" className="md:mt-20 w-full md:w-10/12 mx-auto mb-20">
         <div className="flex flex-col md:flex md:flex-row  gap-10">
           <div className="mx-auto w-11/12 md:w-3/12 flex space-x-4 flex-row md:flex md:flex-col justify-center">
             <h2 className="w-4/12 md:w-full font-saira text-xl md:text-4xl font-bold leading-tight">

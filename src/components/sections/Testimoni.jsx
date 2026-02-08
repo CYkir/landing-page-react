@@ -29,7 +29,7 @@ const Testimoni = () => {
 
   return (
     <>
-      <section className="w-10/12 mx-auto my-10 md:py-24 flex flex-col md:flex-row md:flex justify-between    items-center">
+      <section id="testimoni" className="w-10/12 mx-auto my-10 md:py-24 flex flex-col md:flex-row md:flex justify-between    items-center">
         <div className="w-full md:w-6/12">
           <h2 className=" text-2xl md:text-4xl font-saira font-bold mb-10">
             What People Are Saying About Us

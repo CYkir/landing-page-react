@@ -3,7 +3,7 @@ import bestFurniture from '../../assets/img/best_furniture.png'
 const BestFurniture = () => {
   return (
     <>
-      <section className="my-10">
+      <section id='best-furniture' className="my-10">
         <div className="flex flex-col md:flex md:flex-row justify-around w-10/12 mx-auto md:space-x-5">
           <div className="w-full md:w-6/12 md:py-32">
             <h2 className="font-saira font-bold text-xl md:text-4xl leading-tight tracking-wide">

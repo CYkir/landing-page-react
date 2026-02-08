@@ -12,7 +12,7 @@ const CallToAction = () => {
   };
   return (
     <>
-      <section className="relative w-full">
+      <section id="cta" className="relative w-full">
         <img
           src={CtaImg}
           alt="CTA Background"
