@@ -1,15 +1,14 @@
 import UseData from "../../hooks/UseData";
+import GlobalLoading from "../loading/GlobalLoading";
 
 const Stats = () => {
   const {data, loading, err} = UseData();
-  if(!data) return <p>loading..</p>
-  if (loading) return <p>loadind ....</p>;
+  if (loading) return <GlobalLoading/>;
   if (err) return <p>erro: {err}</p>;
   return (
     <>
       <div className="relative -mt-24 flex justify-center ">
-        <div className="w-11/12 md:w-10/12 bg-[#2f6f69] rounded-2xl p-8 text-white gap-8 grid grid-cols-3 place-items-center md:flex md:justify-around  shadow-xl ">
-      
+        <div className="w-11/12 md:w-10/12 bg-[#286F6C] rounded-2xl p-8 text-white gap-8 grid grid-cols-3 place-items-center md:flex md:justify-around  shadow-xl ">
           <div className="text-center my-auto">
             <h2 className="text-3xl font-saira font-bold my-auto">
               {data.experience}

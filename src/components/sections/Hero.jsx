@@ -1,9 +1,11 @@
 import UseHeader from "../../hooks/UseHeader";
+import GlobalLoading from "../loading/GlobalLoading";
+
 
 const Hero = () => {
   const { header, err, loading } = UseHeader();
 
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <GlobalLoading/>;
   if (err) return <p>error: {err}</p>;
   return (
     <section

@@ -1,9 +1,10 @@
 import USeCategories from "../../hooks/UseCategories";
+import GlobalLoading from "../loading/GlobalLoading";
 
 const About = () => {
   const { category, loading, err } = USeCategories();
 
-  if (loading) return <p>loading...</p>;
+  if (loading) return <GlobalLoading/>;
   if (err) return <p>err: {err}</p>;
   const chair = category.find((c) => c.title === "Chair");
   // console.log(category);

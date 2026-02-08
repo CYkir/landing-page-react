@@ -1,9 +1,10 @@
 import { ChevronLeft, ChevronRight, Plus } from "lucide-react";
 import UseProducts from "../../hooks/UseProducts";
+import GlobalLoading from "../loading/GlobalLoading";
 
 const Products = () => {
   const { product, err, loading } = UseProducts();
-  if (loading) return <p>loading....</p>;
+  if (loading) return <GlobalLoading/>;
   if (err) return <p>err:{err}</p>;
 
   return (

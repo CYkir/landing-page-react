@@ -1,9 +1,10 @@
 import USeCategories from "../../hooks/UseCategories";
+import GlobalLoading from "../loading/GlobalLoading";
 
 const Category = () => {
   const {category, err, loading} = USeCategories()
 
-  if(loading) return <p>loading.....</p>
+  if(loading) return <GlobalLoading/>
   if(err) return <p>Err : {err}</p>
   return (
     <>
