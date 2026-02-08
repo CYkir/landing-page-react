@@ -25,7 +25,7 @@ const Navbar = () => {
         scrolled ? "bg-[#286F6C]  shadow-md" : "bg-transparent text-white"
       }`}
     >
-      <div className="w-full md:w-10/12 mx-auto flex justify-between items-center p-4 text-white">
+      <div className="w-full md:w-10/12 mx-auto flex justify-between items-center p-5 text-white">
         <h1 className="text-xl md:text-4xl font-saira font-bold">
           <button onClick={() => scrollToSection("hero")}>FurniShop</button>
         </h1>
@@ -53,7 +53,7 @@ const Navbar = () => {
       </div>
 
       {open && (
-        <div className="md:hidden bg-black/80 backdrop-blur-lg text-white -mt-3">
+        <div className="md:hidden bg-black/80 backdrop-blur-lg text-white rounded-lg -mt-1">
           <ul className="flex flex-col items-center gap-6 py-6 text-lg font-saira">
             <li className="cursor-pointer">
               <button onClick={() => scrollToSection("hero")}>Home</button>
