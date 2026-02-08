@@ -10,7 +10,7 @@ const USeCategories = () => {
     const fecthCategory = async () => {
       try {
         const res = await getCategories();
-        console.log(res.data.category);
+        // console.log(res.data.category);
         setCategory(res.data.category);
       } catch (err) {
         setError(err.message || "failed fetch categories");

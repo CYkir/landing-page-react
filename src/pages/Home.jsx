@@ -5,6 +5,7 @@ import BestFurniture from "../components/sections/BestFurniture";
 import Category from "../components/sections/Category";
 import Hero from "../components/sections/Hero";
 import Products from "../components/sections/Products";
+import Testimoni from "../components/sections/Testimoni";
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
       <Category/>
       <BestFurniture/>
       <Products/>
+      <Testimoni/>
     </>
   );
 };

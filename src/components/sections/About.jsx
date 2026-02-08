@@ -6,7 +6,7 @@ const About = () => {
   if (loading) return <p>loading...</p>;
   if (err) return <p>err: {err}</p>;
   const chair = category.find((c) => c.title === "Chair");
-  console.log(category);
+  // console.log(category);
 
   return (
     <>

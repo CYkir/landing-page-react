@@ -6,7 +6,7 @@ const getHeader = () => axios.get(`${API_URL}/header`);
 const getdata = () => axios.get(`${API_URL}/data`);
 const getCategories = () => axios.get(`${API_URL}/category`);
 const getProducts = () => axios.get(`${API_URL}/products?page=1&limit=5`);
-const getTestimoni = () => axios.get(`${API_URL}/testimonials?page=1&limit=1`);
+const getTestimoni = () => axios.get(`${API_URL}/testimonials`);
 const subscribeEmail = () => axios.post(`${API_URL}/subscribe`);
 
 
