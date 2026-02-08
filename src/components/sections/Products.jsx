@@ -11,7 +11,7 @@ const Products = () => {
     <>
       <section className="w-12/12 md:w-10/12 p-10 mx-auto">
         <div className="text-center mx-auto">
-          <h3 className="font-saira text-2xl md:text-4xl font-bold">All Product</h3>
+          <h2 className="font-saira text-2xl md:text-4xl font-bold">All Product</h2>
           <p className="my-8 font-saira font-thin text-sm md:text-xl w-full md:w-6/12 mx-auto">
             The products we provide only for you as our service are selected
             from the best products with number 1 quality in the world

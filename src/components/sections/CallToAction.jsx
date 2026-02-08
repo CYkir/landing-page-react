@@ -22,9 +22,9 @@ const CallToAction = () => {
         <div className="absolute inset-0 flex items-center justify-center md:justify-end px-4 md:px-8">
           <div className="w-full md:w-6/12 p-4 md:p-5 flex flex-col items-center md:items-start text-center md:text-left">
             <div className="w-full md:w-6/12">
-              <h1 className="text-white text-xl md:text-4xl font-bold font-saira leading-snug md:w-10/12 md:mx-0 mx-auto w-8/12">
+              <h2 className="text-white text-xl md:text-4xl font-bold font-saira leading-snug md:w-10/12 md:mx-0 mx-auto w-8/12">
                 Get more discount Off your order
-              </h1>
+              </h2>
 
               <p className="mt-3 text-white font-saira text-sm md:text-2xl font-thin">
                 Join our mailing list
